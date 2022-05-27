@@ -40,6 +40,9 @@ These commands will create:
   * myapp.tar.gz that contains a folder structure starting at usr/local/ that a Linux user could expand to the root of their system.
   * myapp.exe (after the second build, which is required for a windows package) will have the icon and app metadata embedded.
 
+**emphasize：**
+If you are cross compiling, you can't just execute the upper command. You also need to refer to the [documentation](https://developer.fyne.io/started/cross-compiling) of the cross compilation section.
+
 If you just want to install the desktop app on your computer then you can make
 use of the helpful install subcommand. For example to install your current
 application system wide you could simply execute the following:
